@@ -1,3 +1,4 @@
+//go:build goji_router_simple
 // +build goji_router_simple
 
 package goji

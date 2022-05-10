@@ -4,7 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"goji.io/internal"
+	// "goji.io/internal"
+	"github.com/skeptycal/goji/internal"
 )
 
 type match struct {

@@ -1,3 +1,4 @@
+//go:build !goji_router_simple
 // +build !goji_router_simple
 
 package goji
@@ -7,7 +8,8 @@ import (
 	"sort"
 	"strings"
 
-	"goji.io/internal"
+	// "goji.io/internal"
+	"github.com/skeptycal/goji/internal"
 )
 
 type router struct {
