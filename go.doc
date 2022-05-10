@@ -1,0 +1,14 @@
+package goji // import "github.com/skeptycal/goji"
+
+Package goji is a minimalistic and flexible HTTP request multiplexer.
+
+Goji itself has very few features: it is first and foremost a standard set
+of interfaces for writing web applications. Several subpackages are
+distributed with Goji to provide standard production-ready implementations
+of several of the interfaces, however users are also encouraged to implement
+the interfaces on their own, especially if their needs are unusual.
+
+type Mux struct{ ... }
+    func NewMux() *Mux
+    func SubMux() *Mux
+type Pattern interface{ ... }
