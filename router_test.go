@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"goji.io/internal"
-	"goji.io/pattern"
+	"github.com/skeptycal/goji/internal"
+	"github.com/skeptycal/goji/pattern"
 )
 
 func TestNoMatch(t *testing.T) {

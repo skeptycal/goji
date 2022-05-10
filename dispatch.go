@@ -3,7 +3,6 @@ package goji
 import (
 	"net/http"
 
-	// "goji.io/internal"
 	"github.com/skeptycal/goji/internal"
 )
 

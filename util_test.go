@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"goji.io/internal"
+	"github.com/skeptycal/goji/internal"
 )
 
 type boolPattern bool

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	"goji.io/internal"
-	"goji.io/pattern"
+	"github.com/skeptycal/goji/internal"
+	"github.com/skeptycal/goji/pattern"
 )
 
 type match struct {

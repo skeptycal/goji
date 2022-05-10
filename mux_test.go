@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"goji.io/internal"
+	"github.com/skeptycal/goji/internal"
 )
 
 func TestMuxExistingPath(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"context"
 	"net/http"
 
-	"goji.io"
-	"goji.io/internal"
+	"github.com/skeptycal/goji"
+	"github.com/skeptycal/goji/internal"
 )
 
 /*

@@ -15,7 +15,7 @@ package pattern
 import (
 	"context"
 
-	"goji.io/internal"
+	"github.com/skeptycal/goji/internal"
 )
 
 /*

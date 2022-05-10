@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	// "goji.io/internal"
+	// "github.com/skeptycal/goji/internal"
 	"github.com/skeptycal/goji/internal"
 )
 

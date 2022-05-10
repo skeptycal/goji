@@ -28,7 +28,7 @@ import (
         "net/http"
 
         "goji.io"
-        "goji.io/pat"
+        "github.com/skeptycal/goji/pat"
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {

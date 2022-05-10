@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	// "goji.io/internal"
+	// "github.com/skeptycal/goji/internal"
 	"github.com/skeptycal/goji/internal"
 )
 
